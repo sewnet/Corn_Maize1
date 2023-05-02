@@ -25,9 +25,6 @@ from tensorflow.keras.models import Model
 st.title("Corn Maize Classification")
 st.header("Please input an image to be classified:")
 #st.text("Created by SU")
-
-#@st.cache(allow_output_mutation=True)
-#def teachable_machine_classification(img, weights_file):
     
 uploaded_file = st.file_uploader("Upload an Image", type="jpg")
 
