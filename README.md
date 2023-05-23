@@ -1,5 +1,5 @@
 title: Leaf Corn Maize
-emoji: 😻
+emoji: 🌾
 colorFrom: pink
 colorTo: red
 sdk: streamlit
@@ -10,4 +10,4 @@ pinned: false
 
 
 # Corn_Maize1
-For leaf disease detection in corn / maize leaves
+#For leaf disease detection in corn / maize leaves
