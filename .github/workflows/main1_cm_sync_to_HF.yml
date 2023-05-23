@@ -16,5 +16,5 @@ jobs:
           lfs: true
       - name: Push to hub
         env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN_CM }}
+          HF_TOKEN_CM: ${{ secrets.HF_TOKEN_CM }}
         run: git push --force https://Sew1:$HF_TOKEN_CM@huggingface.co/spaces/Sew1/corn-maize-leaf-disease main
