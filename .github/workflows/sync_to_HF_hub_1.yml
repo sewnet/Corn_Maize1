@@ -16,7 +16,7 @@ jobs:
           lfs: true
       - name: Push to hub
         env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://Sew1:$HF_TOKEN@huggingface.co/spaces/Sew1/leaf_Corn_maize main
+          HF_TOKEN: ${{ secrets.HF_TOKEN_CM }}
+        run: git push --force https://Sew1:$HF_TOKEN_CM@huggingface.co/spaces/Sew1/leaf_Corn_maize main
         
         
